@@ -1,0 +1,127 @@
+*{
+  background-color: rgb(218, 248, 218);
+}
+
+/* Home page */
+.search{
+  width: 280px;
+  padding-left: 10px;
+  border: .5px solid rgb(20, 20, 20);
+  flex-direction: row;
+  background-color:whitesmoke;
+}
+.searchBar{
+  margin: auto;
+  width: 290px;
+}
+.refresh{
+  float: right;
+  margin-top: -20px;
+  background-color: whitesmoke;
+}
+
+.fullCard{
+  margin: 20px;
+}
+.MainCard{
+  font-size: 10px;
+  color: black;
+  background-color:whitesmoke;
+  border-radius: 5%;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 4px #979696;
+  width: 300px;
+  margin: auto;
+}
+
+img{
+  display: flex;
+  width: 300px;
+  height: 450px;
+  border-radius: 5%;
+  justify-content: center;
+}
+.img{
+  background-color:whitesmoke;
+}
+
+.nameId{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color:whitesmoke;
+}
+.Name{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:whitesmoke;
+}
+.Id{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color:whitesmoke;
+}
+
+.Breed{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color:whitesmoke;
+}
+
+.seeDetails{
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  background-color:rgb(235, 233, 233);
+  border: .5px solid black;
+}
+.seeDetails:hover{
+  background-color: rgb(207, 207, 207);
+}
+@media (max-width: 500px){
+  .search {
+    width: 230px;
+  }
+}
+
+
+
+/* Single Player View */
+.singlePage{
+  margin: 10px;
+}
+
+.homeLink{
+  margin-left: 10px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  border-bottom: .5px solid black;
+}
+.homeLink:hover{
+  border-bottom: 2.5px solid black;
+}
+
+.singlePuppieCard{
+  display: flex;
+  flex-direction: column;
+}
+.pic{
+  margin: auto;
+  margin-top: 35px;
+}
+.name, .breed, .teamId, .id{
+  margin: 5px;
+  text-align: center;
+}
